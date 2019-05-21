@@ -8,6 +8,7 @@ int pyramid(int n) {
 	return n * (n + 1)*(2 * n + 1) / 6;
 }
 
+// we can also try octagonal number
 // octagonal number
 // 3 i^2 - 2 i
 // 1/2 n (1 + n) (-1 + 2 n)
@@ -19,6 +20,8 @@ bool is_square(int n){
 	}
 	else { return false; }
 }
+
+// test for 1 to 100
 int main()
 {  
 	int i;
